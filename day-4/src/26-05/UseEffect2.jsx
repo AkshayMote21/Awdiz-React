@@ -11,6 +11,7 @@ function UseEffect2(){
         <div>
             <h1>Counter : {counter}</h1>
             <button onClick={()=>{setCounter(counter+2)}}>+</button>
+            <button onClick={()=>{setCounter(counter-2)}}>-</button>
         </div>
     );
 }
