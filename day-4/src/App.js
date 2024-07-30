@@ -12,8 +12,12 @@ import UseCallbackComponent from './29-06/UseCallbackComponent';
 import UseMemoComponent from './29-06/UseMemoComponent';
 import UseRefComponent from './30-06/UseRefComponent';
 import UseRef2Component from './30-06/UseRef2Component';
+
 import { Routing } from './30-05/Routing';
 import { UserDetails } from './30-05/UserDetails';
+import Mapping from './02-06/Mapping';
+import AllProducts from './02-06/AllProducts';
+
 
 
 
@@ -29,6 +33,8 @@ function App() {
         <Route path='/useEffect3' element={<UseEffect3/>}/>
         <Route path='/useNavigate' element={<Routing/>}/>
         <Route path='/user/:username' element={<UserDetails/>}/>
+        <Route path='/mapping' element={<Mapping students={["chetan","minhaj","nilesh","akshay","furkan"]}/>}/>
+        <Route path='/allProducts' element={<AllProducts/>}/>
 
         <Route path='/useCallbackComponent' element={<UseCallbackComponent/>}/>
         <Route path='/useMemoComponent' element={<UseMemoComponent/>}/>
